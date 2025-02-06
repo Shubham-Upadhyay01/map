@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "build": "echo 'No build step required'",
+    "vercel-build": "npm install"
   },
   "keywords": [],
   "author": "",
@@ -16,12 +18,5 @@
     "socket.io": "^4.8.1",
     "twilio": "^5.4.3",
     "vercel": "^41.0.0"
-  },
-  "scripts": {
-  "start": "node app.js",
-  "build": "echo 'No build step required'",
-  "vercel-build": "npm install"
-}
-
-  
+  }
 }
