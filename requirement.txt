@@ -1,0 +1,5 @@
+npm init -y
+npm i express ejs
+npm i socket.io
+//to run the code
+npx nodemon app.js

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+#map{
+    width: 100%;
+    height: 100%;
+}
+.sosButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    background-color: #ff0000; /* Brighter red for urgency */
+    color: white;
+    border: none;
+    border-radius: 50px; /* More rounded */
+    padding: 15px 25px; /* Increased padding */
+    font-size: 18px; /* Larger font */
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.5); /* Stronger shadow */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Glow effect on hover */
+.sosButton:hover {
+    background-color: #cc0000; /* Slightly darker red */
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.8); /* Stronger glow */
+    transform: scale(1.1); /* Slight increase in size */
+}
